@@ -15,6 +15,6 @@ steps:
     id: "Create GCP Compute Disk"
     entrypoint: "python"
     args:
-      - "create_disk.py"
+      - "create-disk.py"
 
 timeout: "600s"
